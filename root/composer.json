@@ -1,12 +1,21 @@
 {
     "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "description": "The Encryption Web App.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+          "name": "Volodymyr Maksymchuk",
+          "email": "vovamaksymchuk@gmail.com",
+          "homepage": "http://maksymchuk.co.uk"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "illuminate/html": "5.*",
+        "laravelcollective/html": "5.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
